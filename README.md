@@ -1,20 +1,35 @@
-﻿# ZG-Hero-Project-trilha-K1-T3-Java
+# 🎯 Desafio do processo seletivo da ZG Soluções  
 
-    Tarefa: uma tarefa tem parâmetros tais como, Nome, descrição, Data de término, nível de prioridade (1--5), categoria e status (ToDo, Doing e Done);
+## 📂 ZG-Hero-Project-trilha-K1-T3-Java  
 
-Requisitos Obrigatórios:
+### 📝 MVP do Sistema de Tarefas  
 
-    A tarefa deve ter pelo menos os parâmetros: 
-        Nome;
-        Descrição;
-        Data de término;
-        Nível de prioridade de 1 a 5;
-        Categoria;
-        Status (todo, doing e done).
-    CRD de Tarefas;
-        Disponibilize essas ações em menu simples no terminal.
-    Deve ser possível listar as atividades por:
-        Categoria;
-        Prioridade;
-        Status.
-    Quando uma nova atividade for inserida, deve ser feito o rebalanceamento da ordem, verificando a prioridade da mesma, para inseri-la na posição ideal;
+---
+
+## ✅ Requisitos Obrigatórios
+
+- O sistema deve permitir o gerenciamento de **tarefas**, cada uma com os seguintes parâmetros:  
+  - Nome  
+  - Descrição  
+  - Data de término  
+  - Nível de prioridade (**1 a 5**)  
+  - Categoria  
+  - Status (**ToDo**, **Doing** ou **Done**)  
+
+- Funcionalidades obrigatórias:  
+  - **CRD de Tarefas** (Criar, Listar e Deletar)  
+  - Disponibilizar essas ações em um **menu simples no terminal**  
+
+- Listagens específicas:  
+  - Listar tarefas por **Categoria**  
+  - Listar tarefas por **Prioridade**  
+  - Listar tarefas por **Status**  
+
+- Inserção de tarefas:  
+  - Quando uma nova atividade for cadastrada, o sistema deve **rebalancear a ordem automaticamente**, inserindo a tarefa na posição correta de acordo com a prioridade.  
+
+---
+
+## 🚀 Requisitos Opcionais
+- Implementar a funcionalidade de **atualizar tarefas existentes**.  
+- Persistir os dados em arquivo ou banco de dados para não perder as tarefas ao encerrar o programa.  
